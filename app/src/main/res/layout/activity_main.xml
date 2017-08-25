@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:gravity="center_vertical"
+    tools:context="com.yw.my.sorteradiobutton.MainActivity">
+
+    <com.yw.my.sorteradiobutton.SortButton
+        android:id="@+id/sort_all"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        app:isShowArrow="false"
+        app:selected="true"
+        app:uiText="全部"
+        app:uiTextSize="20sp" />
+
+    <com.yw.my.sorteradiobutton.SortButton
+        android:id="@+id/sort_rate"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        app:uiText="利率"
+        app:uiTextSize="20sp" />
+
+    <com.yw.my.sorteradiobutton.SortButton
+        android:id="@+id/sort_price"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        app:uiText="价格"
+        app:uiTextSize="20sp" />
+
+    <com.yw.my.sorteradiobutton.SortButton
+        android:id="@+id/sort_limit"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        app:uiText="期限"
+        app:uiTextSize="20sp" />
+
+
+</LinearLayout>

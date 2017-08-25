@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SortRadioButton">
+        <attr name="uiText" format="string" />
+        <attr name="uiTextSize" format="dimension" />
+        <attr name="uiTextColor" format="reference" />
+        <attr name="uiUpIcon" format="reference" />
+        <attr name="uiDownIcon" format="reference" />
+        <attr name="isShowArrow" format="boolean" />
+        <attr name="selected" format="boolean" />
+    </declare-styleable>
+</resources>
