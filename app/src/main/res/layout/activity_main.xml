@@ -16,7 +16,7 @@
         app:isShowArrow="false"
         app:selected="true"
         app:uiText="全部"
-        app:uiTextSize="20sp" />
+        app:uiTextSize="21sp" />
 
     <com.yw.my.sorteradiobutton.SortButton
         android:id="@+id/sort_rate"
